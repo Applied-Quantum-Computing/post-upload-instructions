@@ -31,7 +31,7 @@ commentary: |<br>
     Most of this project is just me trying to understand how qaoa solving the max-cut problem can be used for machine learning (see details in code).
     The plan is to work through this then play around with it. Hopefully by playing around enough, I could find a way for small
     (< 50 qubit--<a href="https://arxiv.org/abs/1801.00862">NISQ</a> quantum computers to more quickly be powerful learning machines.
-    <strong>UPDATE:</strong> If you want to see some of my playing arounds, check out <a href="https://ajrazander.github.io/unsupervised-machine-learning/max-cut/2019/11/13/Max-cut-2+-Divisive-Clustering.html">this other post</a>.</p><br>
+    <strong>UPDATE:</strong> If you want to see some of my playing around, check out <a href="https://ajrazander.github.io/unsupervised-machine-learning/max-cut/2019/11/13/Max-cut-2+-Divisive-Clustering.html">this other post</a>.</p><br>
 tags: [unsupervised-machine-learning, max-cut, qaoa, ising-model, advanced]<br>
 \---
 
@@ -45,11 +45,11 @@ mathjax should always be true.<br>
 front-image is the path to the image you want to show when people are browsing posts. the path should always be "assets/images/" then your file name (as seen in the above example).<br>
 source-code is a link to the original jupyter notebook if you want to share that.<br>
 commentary is your time to talk with readers about the post. It is the first text they will see and is the only text shown when browsing posts.<br>
-tags are tags. All tags need to be lower case. If you need multiple words for a tag, string them together with dashes e.g. machince-learning. The more accurate your tags, the easier readers will find your post.<br>
+tags are tags. All tags need to be lower case. If you need multiple words for a tag, string them together with dashes e.g. machine-learning. The more accurate your tags, the easier readers will find your post.<br>
 
 ### "Jekyll" post
 
-To do this part, you need to install jekyll and its dependecies. See the [next section](#Setting-up-Jekyll) for more info.
+To do this part, you need to install jekyll and its dependences. See the [next section](#Setting-up-Jekyll) for more info.
 
 Lastly, put your markdown file in the folder 'Applied-Quantum-Computing.github.io/_posts/'. Open a bash terminal, move to the folder applied-quantum-computing.github.io, and run ```bundle exec jekyll serve```. This will generate the website with the new post, and you're done!
 
