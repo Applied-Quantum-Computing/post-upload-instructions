@@ -35,26 +35,26 @@ commentary: |<br>
 tags: [unsupervised-machine-learning, max-cut, qaoa, ising-model, advanced]<br>
 \---
 
-Be sure to include \--- at the beginning and end of the front matter.
+Be sure to include \--- at the beginning and end of the front matter.<br>
 layout should always be post.<br>
-published depends if you want it to show on that site or not yet.<br>
+published depends on whether you want it to show on that site or not.<br>
 title needs to be in double quotes.<br>
-author is your name!<br>
-date is the date of the post release.<br>
+author is your name! (or pen name)<br>
+date is the date when you will release the post.<br>
 mathjax should always be true.<br>
-front-image is the path to the image you want to show when people are browsing posts. the path should always be "assets/images/" then your file name (as seen in the above example).<br>
+front-image is the path to the image you want to show when people are browsing posts. The path should always be "assets/images/" then your file name (as seen in the above example).<br>
 source-code is a link to the original jupyter notebook if you want to share that.<br>
 commentary is your time to talk with readers about the post. It is the first text they will see and is the only text shown when browsing posts.<br>
-tags are tags. All tags need to be lower case. If you need multiple words for a tag, string them together with dashes e.g. machine-learning. The more accurate your tags, the easier readers will find your post.<br>
+tags are tags. All tags need to be lower case. If you need multiple words for a tag, string them together with dashes e.g. machine-learning. The more precise your tags, the easier readers will find your post.<br>
 
-### "Jekyll" post
+### "Jekyll" the post
 
 To do this part, you need to install jekyll and its dependences. See the [next section](#Setting-up-Jekyll) for more info.
 
-Lastly, put your markdown file in the folder 'Applied-Quantum-Computing.github.io/_posts/'. Open a bash terminal, move to the folder applied-quantum-computing.github.io, and run ```bundle exec jekyll serve```. This will generate the website with the new post, and you're done!
+After you have Jekyll set up, put your markdown file in the folder 'Applied-Quantum-Computing.github.io/_posts/'. Open a bash terminal, move to the folder applied-quantum-computing.github.io, and run ```bundle exec jekyll serve```. This will generate the website with the new post. You can control-c to stop the local hosting of the site.
 
 ### Push to repo
-Don't forget to push to the repo!
+Pull from the repo, then push. Check over the post to see if it's to your liking.
 
 # Setting up Jekyll
 
