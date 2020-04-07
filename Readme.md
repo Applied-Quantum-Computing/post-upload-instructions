@@ -13,6 +13,7 @@ To export:
 3. Check the markdown file's special casing is generated with html (e.g. < strong > for bold) tags rather than markdown short cuts (e.g. \*\*bold\*\* for bold). Inline math will need two \$'s.
 4. Check urls still make sense and are tied to other site articles.
 5. When you exported the notebook to a markdown file, all plots and images should have also been exported as pngs in the same folder as the markdown file. Move these files to the folder 'Applied-Quantum-Computing.github.io/assets/images/'. In the markdown file, replace ```![png](auto_generated_filename.png)``` with ```![png](/assets/images/auto_generated_filename.png)``` for each image. Note, the png filenames are auto generated, but they need to be unique in the assets folder, so you may need to rename them to avoid filename conflicts.
+6. All in-line math needs two $'s
 
 ### Format: YAML front matter
 Here is an example of all/most of the YAML front matter we use in posts:
